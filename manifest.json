@@ -3,16 +3,19 @@
   "manifest_version": 2,
   "name": "Element-Hider",
   "version": "1.0",
+  "author" : "David Stevens",
+  "homepage_url": "https://github.com/olusername91/element-hider",
 
-  "description": "Hold control, triple click any element you want to hide. Hold shift, and triple click anywhere to undo the last hide.",
+  "description": "Pressing control and shift keys, double click away any element you want to hide. Control + shift + z to undo.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "eh48.png",
+    "48": "eh96.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["<all_urls>"],
       "js": ["src.js"]
     }
   ]
