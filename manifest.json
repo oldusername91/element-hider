@@ -10,7 +10,7 @@
 
   "icons": {
     "48": "eh48.png",
-    "48": "eh96.png"
+    "96": "eh96.png"
   },
 
   "content_scripts": [
