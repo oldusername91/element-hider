@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Element-Hider",
+  "version": "1.0",
+
+  "description": "Hold control, triple click any element you want to hide. Hold shift, and triple click anywhere to undo the last hide.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["src.js"]
+    }
+  ]
+
+}
